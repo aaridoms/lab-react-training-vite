@@ -2,7 +2,7 @@ export default function Greetings(props) {
 
   const greetingStyles = {
     border: "2px solid black",
-    fontSize: "100px",
+    fontSize: "40px",
     padding: "10px",
     margin: "50px",
   }
@@ -10,6 +10,8 @@ export default function Greetings(props) {
   const greeting = {
     de: "Hallo",
     fr: "Bonjour",
+    es: "Hola",
+    pt: "Olá",
   }
 
   return (

@@ -31,8 +31,10 @@ function App() {
       /> */}
 
       {/* ITERATION 2 */}
-      {/* <Greetings lang={"de"}>Ludwig</Greetings>
-      <Greetings lang={"de"}>François</Greetings> */}
+      <Greetings lang={"de"}>Ludwig</Greetings>
+      <Greetings lang={"fr"}>François</Greetings>
+      <Greetings lang={"es"}>Jorge</Greetings>
+      <Greetings lang={"pt"}>pedro</Greetings>
 
       {/* ITERATION 3 */}
       {/* <Random min={5} max={10} /> */}
@@ -81,7 +83,7 @@ function App() {
       {/* <Rating>1.9</Rating> */}
 
       {/* ITERATION 7 */}
-      <DriverCard
+      {/* <DriverCard
         name={"Travis Kalanick"}
         rating={4.2}
         img={
@@ -101,7 +103,7 @@ function App() {
           model: "Audi A3",
           licensePlate: "BE33ER",
         }}
-      />
+      /> */}
     </div>
   );
 }
