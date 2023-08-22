@@ -7,6 +7,8 @@ import BoxColor from "./components/BoxColor";
 import CreditCard from "./components/CreditCard";
 import Rating from "./components/Rating";
 import DriverCard from "./components/DriverCard";
+import LikeButton from "./components/LikeButton";
+import ClickablePicture from "./components/ClickablePicture";
 
 function App() {
   return (
@@ -31,10 +33,10 @@ function App() {
       /> */}
 
       {/* ITERATION 2 */}
-      <Greetings lang={"de"}>Ludwig</Greetings>
+      {/* <Greetings lang={"de"}>Ludwig</Greetings>
       <Greetings lang={"fr"}>François</Greetings>
       <Greetings lang={"es"}>Jorge</Greetings>
-      <Greetings lang={"pt"}>pedro</Greetings>
+      <Greetings lang={"pt"}>pedro</Greetings> */}
 
       {/* ITERATION 3 */}
       {/* <Random min={5} max={10} /> */}
@@ -104,6 +106,15 @@ function App() {
           licensePlate: "BE33ER",
         }}
       /> */}
+
+      {/* ITERATION 8 */}
+      {/* <LikeButton /> */}
+
+      {/* ITERATION 9 */}
+      <ClickablePicture 
+        img="https://www.gainbridge.io/img/JustinWee.1f49144d.jpg"
+        imgClicked="http://www.stickpng.com/assets/images/584999937b7d4d76317f5ffd.png"
+      />
     </div>
   );
 }
