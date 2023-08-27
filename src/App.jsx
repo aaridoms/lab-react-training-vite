@@ -9,6 +9,10 @@ import Rating from "./components/Rating";
 import DriverCard from "./components/DriverCard";
 import LikeButton from "./components/LikeButton";
 import ClickablePicture from "./components/ClickablePicture";
+import Dice from "./components/Dice";
+import Carousel from "./components/Carousel";
+import FaceBook from "./components/FaceBook";
+import SignupPage from "./components/SignupPage";
 
 function App() {
   return (
@@ -111,10 +115,29 @@ function App() {
       {/* <LikeButton /> */}
 
       {/* ITERATION 9 */}
-      <ClickablePicture 
+      {/* <ClickablePicture 
         img="https://www.gainbridge.io/img/JustinWee.1f49144d.jpg"
-        imgClicked="http://www.stickpng.com/assets/images/584999937b7d4d76317f5ffd.png"
-      />
+        imgClicked="https://m8p8m9h3.stackpathcdn.com/wp-content/uploads/2021/11/que-tipo-de-persona-te-gustaria-ser-730x411-SP.jpg"
+      /> */}
+
+      {/* ITERATION 10 */}
+      {/* <Dice /> */}
+
+      {/* ITERATION 11 */}
+      {/* <Carousel 
+        images={[
+          "https://randomuser.me/api/portraits/women/1.jpg",
+          "https://randomuser.me/api/portraits/men/1.jpg",
+          "https://randomuser.me/api/portraits/women/2.jpg",
+          "https://randomuser.me/api/portraits/men/2.jpg"
+        ]}
+      /> */}
+
+      {/* ITERATION 13 */}
+      {/* <FaceBook /> */}
+
+      {/* ITERATION 15 */}
+      <SignupPage />
     </div>
   );
 }
